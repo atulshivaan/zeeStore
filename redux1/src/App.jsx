@@ -11,6 +11,7 @@ import AddProduct from './pages/AddProduct';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Footer from './componenet/Footer';
+import Outlet from './componenet/Outlet';
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
         
       </Routes>
       <Footer/>
+      <Outlet/>
+      
     </>
   );
 }
